@@ -1,9 +1,9 @@
 import './GreenButton.css'
 
-function GreenButton({text="Go"}) {
+function GreenButton({text="Go", onClick=()=>{}}) {
   return (
     <div>
-      <button className="GreenButton">{text}</button>
+      <button className="GreenButton" onClick={onClick}>{text}</button>
     </div>
   );
 }
