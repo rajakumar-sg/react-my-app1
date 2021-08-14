@@ -1,0 +1,8 @@
+.GreenButton {
+  text-align: center;
+  height: 30px;
+  min-width: 100px;
+  background-color: green;
+  color: white;
+  font-weight: bold;
+}

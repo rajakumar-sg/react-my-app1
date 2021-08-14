@@ -1,15 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
+import { GreenButton } from './components'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-      </header>
+    <div>
+      <h1>Learning React</h1>
+      <GreenButton text="Next"/>
     </div>
   );
 }
