@@ -1,10 +1,14 @@
 import './App.css';
 import { GreenButton } from './components'
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 function App() {
   const [count, setCount] = useState(0);
 
+  useEffect(() => {
+    document.title = `You clicked ${count} times`;
+  });
+  
   return (
     <div>
       <h1>Learning React {count} times.</h1>
